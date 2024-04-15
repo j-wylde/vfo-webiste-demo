@@ -13,7 +13,7 @@ import { RxHome } from "react-icons/rx";
 export default function Component() {
   return (
     <>
-      <div className="container mx-auto grid min-h-screen bg-gray-100/40 lg:grid-cols-[280px_1fr] dark:bg-gray-800/40 overflow-hidden">
+      <div className="container mx-auto lg:grid min-h-screen bg-gray-100/40 lg:grid-cols-[280px_1fr] dark:bg-gray-800/40">
         <div className="hidden border-r bg-gray-100/40 lg:block dark:bg-gray-800/40">
           <div className="flex h-full max-h-screen flex-col gap-2">
             <div className="flex h-[60px] items-center border-b px-6">
@@ -137,7 +137,7 @@ export default function Component() {
             </DropdownMenu>
           </header>
           <main className="flex flex-1 flex-col gap-4 p-4 md:gap-8 md:p-6">
-            <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+            <div className="md:grid gap-6 md:grid-cols-2 lg:grid-cols-3">
               <Card className="md:col-span-2 lg:col-span-1">
                 <CardHeader>
                   <CardTitle>Fixtures</CardTitle>
@@ -180,7 +180,7 @@ export default function Component() {
                 </CardFooter>
               </Card>
 
-              <Card className="md:col-span-2">
+              <Card className="md:col-span-2 mt-4">
                 <CardHeader>
                   <CardTitle>League Standings</CardTitle>
                   <CardDescription>
