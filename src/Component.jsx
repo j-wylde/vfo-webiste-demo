@@ -328,7 +328,6 @@ export default function Component() {
                   <div className="grid grid-cols-5 text-center border-t border-gray-700">
                     <div className="py-4">14/04/24 20:30</div>
                     <div className="py-4 flex justify-center items-center">
-                      <TrophyIcon className="mr-2" />
                       VFO AC Milan
                     </div>
                     <div className="py-4 bg-[#18181B] text-white">
@@ -339,7 +338,6 @@ export default function Component() {
                   <div className="grid grid-cols-5 text-center border-t border-gray-700">
                     <div className="py-4">14/04/24 20:30</div>
                     <div className="py-4 flex justify-center items-center">
-                      <TrophyIcon className="mr-2" />
                       VFO Ajax Amsterdam
                     </div>
                     <div className="py-4 bg-[#18181B] text-white">0 - 3</div>
@@ -348,7 +346,6 @@ export default function Component() {
                   <div className="grid grid-cols-5 text-center border-t border-gray-700">
                     <div className="py-4">14/04/24 20:30</div>
                     <div className="py-4 flex justify-center items-center">
-                      <TrophyIcon className="mr-2" />
                       VFO City
                     </div>
                     <div className="py-4 bg-[#18181B] text-white">4 - 8</div>
@@ -357,7 +354,6 @@ export default function Component() {
                   <div className="grid grid-cols-5 text-center border-t border-gray-700">
                     <div className="py-4">14/04/24 20:30</div>
                     <div className="py-4 flex justify-center items-center">
-                      <TrophyIcon className="mr-2" />
                       VFO Everton
                     </div>
                     <div className="py-4 bg-[#18181B] text-white">1 - 0</div>
@@ -366,7 +362,6 @@ export default function Component() {
                   <div className="grid grid-cols-5 text-center border-t border-gray-700">
                     <div className="py-4">14/04/24 20:30</div>
                     <div className="py-4 flex justify-center items-center">
-                      <TrophyIcon className="mr-2" />
                       VFO Juventus
                     </div>
                     <div className="py-4 bg-[#18181B] text-white">
@@ -377,7 +372,6 @@ export default function Component() {
                   <div className="grid grid-cols-5 text-center border-t border-gray-700">
                     <div className="py-4">14/04/24 20:30</div>
                     <div className="py-4 flex justify-center items-center">
-                      <TrophyIcon className="mr-2" />
                       VFO Tottenham Hotspurs
                     </div>
                     <div className="py-4 bg-[#18181B] text-white">1 - 3</div>
@@ -386,7 +380,6 @@ export default function Component() {
                   <div className="grid grid-cols-5 text-center border-t border-gray-700">
                     <div className="py-4">14/04/24 20:30</div>
                     <div className="py-4 flex justify-center items-center">
-                      <TrophyIcon className="mr-2" />
                       VFO United
                     </div>
                     <div className="py-4 bg-[#18181B] text-white">
@@ -397,7 +390,6 @@ export default function Component() {
                   <div className="grid grid-cols-5 text-center border-t border-gray-700">
                     <div className="py-4">14/04/24 20:30</div>
                     <div className="py-4 flex justify-center items-center">
-                      <TrophyIcon className="mr-2" />
                       VFO Wolves
                     </div>
                     <div className="py-4 bg-[#18181B] text-white">4 - 1</div>
