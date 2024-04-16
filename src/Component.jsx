@@ -13,7 +13,7 @@ import { RxHome } from "react-icons/rx";
 export default function Component() {
   return (
     <>
-      <div className="container mx-auto lg:grid min-h-screen bg-gray-100/40 lg:grid-cols-[280px_1fr] dark:bg-gray-800/40">
+      <div className="lg:grid min-h-screen bg-gray-100/40 lg:grid-cols-[280px_1fr] dark:bg-gray-800/40">
         <div className="hidden border-r bg-gray-100/40 lg:block dark:bg-gray-800/40">
           <div className="flex h-full max-h-screen flex-col gap-2">
             <div className="flex h-[60px] items-center border-b px-6">
@@ -136,9 +136,10 @@ export default function Component() {
               </DropdownMenuContent>
             </DropdownMenu>
           </header>
-          <main className="flex flex-1 flex-col gap-4 p-4 md:gap-8 md:p-6">
+          <main className="flex flex-1 flex-col gap-4 md:gap-8 md:p-6 mx-4">
             <div className="md:grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-              <Card className="md:col-span-2 lg:col-span-1">
+              {/* Fixtures card */}
+              <Card className="md:col-span-2 lg:col-span-1 mt-6">
                 <CardHeader>
                   <CardTitle>Fixtures</CardTitle>
                 </CardHeader>
@@ -157,7 +158,7 @@ export default function Component() {
                         width="150"
                       />
                     </button>
-                    <button className="text-lg font-semibold rounded-lg text-center p-3 bg-[#18181B] text-white">
+                    <button className="text-lg font-semibold rounded-lg text-center p-3 mx-2 bg-[#18181B] text-white">
                       VS
                     </button>
                     <button className="bg-slate-100 rounded-sm p-6">
@@ -180,6 +181,7 @@ export default function Component() {
                 </CardFooter>
               </Card>
 
+              {/* League standings card */}
               <Card className="md:col-span-2 mt-4">
                 <CardHeader>
                   <CardTitle>League Standings</CardTitle>
@@ -305,6 +307,7 @@ export default function Component() {
               </Card>
             </div>
 
+            {/* Ads */}
             <div className="p-4 md:p-5 dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-400">
               <img
                 alt="Match image"
@@ -313,7 +316,8 @@ export default function Component() {
               />
             </div>
 
-            <Card>
+            {/* scores card */}
+            <Card className="mb-4">
               <CardHeader>
                 <CardTitle>Match Results</CardTitle>
               </CardHeader>
@@ -326,7 +330,7 @@ export default function Component() {
                     <div className="col-span-1 font-bold">AWAY TEAM</div>
                   </div>
                   <div className="grid grid-cols-5 text-center border-t border-gray-700">
-                    <div className="py-4">14/04/24 20:30</div>
+                    <div className="py-4">14/24 20:30</div>
                     <div className="py-4 flex justify-center items-center">
                       VFO AC Milan
                     </div>
@@ -336,7 +340,7 @@ export default function Component() {
                     <div className="py-4">VFO Inter Miami</div>
                   </div>
                   <div className="grid grid-cols-5 text-center border-t border-gray-700">
-                    <div className="py-4">14/04/24 20:30</div>
+                    <div className="py-4">14/24 20:30</div>
                     <div className="py-4 flex justify-center items-center">
                       VFO Ajax Amsterdam
                     </div>
@@ -344,7 +348,7 @@ export default function Component() {
                     <div className="py-4">VFO Chelsea</div>
                   </div>
                   <div className="grid grid-cols-5 text-center border-t border-gray-700">
-                    <div className="py-4">14/04/24 20:30</div>
+                    <div className="py-4">14/24 20:30</div>
                     <div className="py-4 flex justify-center items-center">
                       VFO City
                     </div>
@@ -352,7 +356,7 @@ export default function Component() {
                     <div className="py-4">VFO Real Madrid</div>
                   </div>
                   <div className="grid grid-cols-5 text-center border-t border-gray-700">
-                    <div className="py-4">14/04/24 20:30</div>
+                    <div className="py-4">14/24 20:30</div>
                     <div className="py-4 flex justify-center items-center">
                       VFO Everton
                     </div>
@@ -360,7 +364,7 @@ export default function Component() {
                     <div className="py-4">VFO Sassuolo</div>
                   </div>
                   <div className="grid grid-cols-5 text-center border-t border-gray-700">
-                    <div className="py-4">14/04/24 20:30</div>
+                    <div className="py-4">14/24 20:30</div>
                     <div className="py-4 flex justify-center items-center">
                       VFO Juventus
                     </div>
@@ -370,7 +374,7 @@ export default function Component() {
                     <div className="py-4">VFO Arsenal</div>
                   </div>
                   <div className="grid grid-cols-5 text-center border-t border-gray-700">
-                    <div className="py-4">14/04/24 20:30</div>
+                    <div className="py-4">14/24 20:30</div>
                     <div className="py-4 flex justify-center items-center">
                       VFO Tottenham Hotspurs
                     </div>
@@ -378,7 +382,7 @@ export default function Component() {
                     <div className="py-4">VFO Liverpool</div>
                   </div>
                   <div className="grid grid-cols-5 text-center border-t border-gray-700">
-                    <div className="py-4">14/04/24 20:30</div>
+                    <div className="py-4">14/24 20:30</div>
                     <div className="py-4 flex justify-center items-center">
                       VFO United
                     </div>
@@ -388,7 +392,7 @@ export default function Component() {
                     <div className="py-4">VFO Bolton Wanderers</div>
                   </div>
                   <div className="grid grid-cols-5 text-center border-t border-gray-700">
-                    <div className="py-4">14/04/24 20:30</div>
+                    <div className="py-4">14/24 20:30</div>
                     <div className="py-4 flex justify-center items-center">
                       VFO Wolves
                     </div>
@@ -399,8 +403,18 @@ export default function Component() {
               </CardContent>
             </Card>
           </main>
+          {/* ads */}
+          <div className='mb-6'>
+            <img
+              alt="Match image"
+              className="aspect-square object-cover rounded-lg mx-auto sm:hidden md:grid"
+              src="https://placehold.co/968x120"
+            />
+          </div>
         </div>
       </div>
+
+      {/* footer */}
       <footer className="bg-[#18181b] px-5 py-5 text-white text-center">
         &copy; 2024 | Virtual Football Demo
       </footer>
@@ -580,31 +594,6 @@ function UsersIcon(props) {
       <circle cx="9" cy="7" r="4" />
       <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
       <path d="M16 3.13a4 4 0 0 1 0 7.75" />
-    </svg>
-  )
-}
-
-
-function TrophyIcon(props) {
-  return (
-    <svg
-      {...props}
-      xmlns="http://www.w3.org/2000/svg"
-      width="24"
-      height="24"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    >
-      <path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6" />
-      <path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18" />
-      <path d="M4 22h16" />
-      <path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22" />
-      <path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22" />
-      <path d="M18 2H6v7a6 6 0 0 0 12 0V2Z" />
     </svg>
   )
 }
